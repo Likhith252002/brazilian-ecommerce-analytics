@@ -8,7 +8,7 @@ An end-to-end data engineering and analytics project built on the [Olist Brazili
 
 | Layer | Technology |
 |---|---|
-| Storage | PostgreSQL 15 |
+| Storage | PostgreSQL 18 |
 | Ingestion | Python 3 · psycopg2 |
 | Analysis | SQL (window functions, CTEs) |
 | Version control | Git / GitHub |
@@ -69,7 +69,7 @@ load_data.py  ──► PostgreSQL (ecommerce_db)
 
 ### Prerequisites
 
-- PostgreSQL 15+ running locally on port 5432
+- PostgreSQL 15+ running locally on port 5432 (tested on PostgreSQL 18)
 - Python 3.8+
 - `psycopg2-binary` package
 
@@ -82,7 +82,7 @@ pip install psycopg2-binary
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/brazilian-ecommerce-analytics.git
+git clone https://github.com/Likhith252002/brazilian-ecommerce-analytics.git
 cd brazilian-ecommerce-analytics
 ```
 
