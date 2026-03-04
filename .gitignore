@@ -1,0 +1,10 @@
+# Raw data files (large, not committed to repo)
+*.csv
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.env
